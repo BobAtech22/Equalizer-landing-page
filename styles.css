@@ -1,0 +1,209 @@
+/* general features */
+body{
+    background-image: url("assets/bg-main-desktop.png");
+    max-width:  1440px;
+    min-width: 400px;
+    max-height: 1945px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-start;
+    margin: auto;
+}
+    
+main{
+    
+    position: relative;
+    margin: 70px 165px ;
+}
+
+/* top header style  */
+    /* equalizer logo div */
+#logo{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+    /* equalizer logo height above top section */
+#top-logo{
+    height: min-content;
+}
+
+    /* figma svg div */
+#figma-div{
+    position: absolute;
+    width: 312px;
+    height: 468px;
+    top: -300%;
+    right: -14.9%;
+}
+
+/* top section */
+    /* top section div */
+.top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 20%;
+    margin-top: 221px;
+}
+    /* large text */
+.top h1{
+    font-size: 60px;
+    font-weight: bold;
+ 
+    margin-bottom: 0px;
+    line-height: 1;
+
+   /* small text */
+}
+.top p{
+    margin-bottom: 45%;
+}
+
+
+
+/* mid-section style */
+    /* mid section div */
+.mid{
+    width: 1110px;
+    position: relative;
+    height: 600px;
+    background-color:black ;
+    border-radius: 10px;
+}
+        /* phone image */
+#phone{
+    position: absolute;
+    width: 312px;
+    height: 642px;
+    margin-left: 110px;
+    bottom: 30%;
+    z-index: 2;
+}
+        /* fimga image 2 */
+#figma2{
+    position: absolute;
+    margin-left: 30.27%;
+    top: -6.66%
+}
+        /* orange-card content */
+.orange-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 446px;
+    height: 625px;
+    position: absolute;
+    background-color:#FA7453 ;
+    z-index: 3;
+    border-radius: 10px;
+    top: 20%;
+    margin-left: 569px;
+    
+}
+            /* card div */
+.orange-card #card{
+    width: 75.78%;
+    margin: 54px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    color: #ffffff;    
+}
+            /* card div text */
+                /* text */
+.orange-card #card h2{
+    width: 100%;
+    font-size: 40px;
+}
+.orange-card #card p{
+    line-height: 2;
+}
+.orange-card #card #price{
+    display: flex;
+    align-items: center;
+}
+.orange-card #price h2{
+    margin-right: 10px;
+}
+               /* card div button */
+.orange-card button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+.orange-card button img{
+    padding-right: 10px;
+}
+
+                /* apple button */
+.orange-card #apple-btn{
+    background-color: #000000;
+    color: #ffff;
+    border-color: #000000;
+}
+                    /* active(hover) state */
+.orange-card #apple-btn:hover{
+    background-color: #66E2DC;
+    border-color: #66E2DC;
+    cursor: pointer; 
+}
+                /* android button */
+.orange-card #android-btn{
+    background-color:#ffff;
+    color:  #000000;
+    border-color: #ffff;
+}
+                    /* active(hover) state */
+.orange-card #android-btn:hover{
+    background-color: #FFB964;
+    border-color: #FFB964;
+    cursor: pointer; 
+}
+
+
+
+
+/* lower part of the page (footer)  */
+
+footer{
+    margin-top: 202px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+    /* equalizer image in footer */
+footer img{
+    padding-top: 10px;
+    height: fit-content;
+}
+    /* copy right text in footer */
+footer p{
+    width: 366px;
+    min-width: 327px;
+}
+    /* social media logos #media-div */
+footer #media-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100px;
+}
+        /* footer image active state */
+footer #media-div svg:hover{
+    cursor: pointer; 
+    fill:#FA7453;
+}

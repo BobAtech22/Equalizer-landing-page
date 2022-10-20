@@ -350,3 +350,102 @@ footer #media-div svg:hover {
         min-width: 327px;
     }
 }
+
+
+
+/* ----------mobile phone mode----------------- */
+@media (max-width: 375px) {
+
+     /* --------------desktop mode--------------- */
+    /* general features */
+    body {
+        background-image: url(assets/bg-main-mobile.png);
+        width: 375px;
+        max-height: 1781px;
+        justify-content: center;
+        margin: auto;
+    }
+
+    main {
+        position: relative;
+        margin: 62px 0px;
+    }
+
+    main #top-logo {
+        margin-bottom: 95px;
+        padding-left: 5%;
+    }
+
+    /* figma svg div */
+    #figma-div {
+        display: none;
+    }
+
+    /* top section */
+    /* top section div */
+    .top {
+        width: 100% ;
+        padding: 0px;
+        margin: auto;
+        padding-left: 5%;
+    }
+
+    .top h1 {
+        margin: 0px;
+        font-size: 40px;
+    }
+
+
+    /* ----- mid-section style ----- */
+    /* phone image */
+    #phone {
+        position: absolute;
+        width: 208px;
+        height: fit-content;
+        top: -15%;
+        margin-left: 25%;
+    }
+
+    /* fimga image 2 */
+    #figma2 {
+        width: 280px;
+        margin: 5%;
+        left: 10%;
+        top: -3%;
+    }
+
+    /* orange-card content */
+    .orange-card {
+        width: 100%;
+        height: fit-content;
+        left: 0%;
+        top: 62%;
+
+    }
+    /* ----- lower part of the page (footer) -----  */
+    footer{
+        width: 100%;
+        margin-top: 500px;
+        position: relative;
+        padding-top: 32px;
+    }
+    footer img {
+        position: absolute;
+        padding-top: 10px;
+        height: fit-content;
+        bottom: 100%;
+    }
+
+    /* copy right text in footer */
+    footer p {
+        width: 366px;
+        min-width: 327px;
+    }
+
+    /* social media logos #media-div */
+footer #media-div {
+    position: absolute;
+    top: 130%;
+}
+}
+

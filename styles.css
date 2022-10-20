@@ -1,8 +1,9 @@
+/* --------------desktop mode--------------- */
 /* general features */
-body{
+body {
     background-image: url("assets/bg-main-desktop.png");
-    max-width:  1440px;
-    min-width: 400px;
+    max-width: 1440px;
+    /* min-width: 400px; */
     max-height: 1945px;
     font-family: 'IBM Plex Sans', sans-serif;
     display: flex;
@@ -10,40 +11,42 @@ body{
     justify-content: center;
     align-content: flex-start;
     margin: auto;
-}
-    
-main{
-    
-    position: relative;
-    margin: 70px 165px ;
+
 }
 
-/* top header style  */
-    /* equalizer logo div */
-#logo{
+main {
+
+    position: relative;
+    margin: 62px 165px;
+}
+
+
+/* -----top header style-----  */
+/* equalizer logo div */
+#logo {
     position: relative;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 
 }
-    /* equalizer logo height above top section */
-#top-logo{
+
+/* equalizer logo height above top section */
+#top-logo {
     height: min-content;
 }
 
-    /* figma svg div */
-#figma-div{
+/* figma svg div */
+#figma-div {
     position: absolute;
     width: 312px;
-    height: 468px;
     top: -300%;
     right: -14.9%;
 }
 
 /* top section */
-    /* top section div */
-.top{
+/* top section div */
+.top {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -51,33 +54,37 @@ main{
     padding-right: 20%;
     margin-top: 221px;
 }
-    /* large text */
-.top h1{
+
+/* large text */
+.top h1 {
     font-size: 60px;
     font-weight: bold;
- 
+
     margin-bottom: 0px;
     line-height: 1;
 
-   /* small text */
+    /* small text */
 }
-.top p{
+
+.top p {
     margin-bottom: 45%;
 }
 
 
 
-/* mid-section style */
-    /* mid section div */
-.mid{
+/* ----- mid-section style ----- */
+/* mid section div */
+.mid {
     width: 1110px;
+    max-width: 100%;
     position: relative;
     height: 600px;
-    background-color:black ;
+    background-color: black;
     border-radius: 10px;
 }
-        /* phone image */
-#phone{
+
+/* phone image */
+#phone {
     position: absolute;
     width: 312px;
     height: 642px;
@@ -85,14 +92,16 @@ main{
     bottom: 30%;
     z-index: 2;
 }
-        /* fimga image 2 */
-#figma2{
+
+/* fimga image 2 */
+#figma2 {
     position: absolute;
     margin-left: 30.27%;
     top: -6.66%
 }
-        /* orange-card content */
-.orange-card{
+
+/* orange-card content */
+.orange-card {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -100,41 +109,56 @@ main{
     width: 446px;
     height: 625px;
     position: absolute;
-    background-color:#FA7453 ;
+    background-color: #FA7453;
     z-index: 3;
     border-radius: 10px;
-    top: 20%;
-    margin-left: 569px;
-    
+    top: 15%;
+    left: 50%
+
 }
-            /* card div */
-.orange-card #card{
+
+/* card div */
+.orange-card #card {
     width: 75.78%;
-    margin: 54px;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: flex-start;
-    color: #ffffff;    
+   align-items: flex-start;
+   margin: 0px;
+   
+    color: #ffffff;
 }
-            /* card div text */
-                /* text */
-.orange-card #card h2{
+
+/* card div text */
+/* text */
+.orange-card #card h2 {
     width: 100%;
     font-size: 40px;
+    margin-top: 15%;
+    margin-bottom: 0px;
 }
-.orange-card #card p{
-    line-height: 2;
+
+.orange-card #card p {
+    line-height: 1.8;
+    font-size: 18px;
 }
-.orange-card #card #price{
+
+.orange-card #card #price {
     display: flex;
     align-items: center;
+    height: fit-content;
 }
-.orange-card #price h2{
-    margin-right: 10px;
+
+.orange-card #price h2 {
+    font-size: 65px;
+    margin: 0px;
+    margin-right: 15px;
+    margin-bottom: 20%;
 }
-               /* card div button */
-.orange-card button{
+
+/* card div button */
+.orange-card button {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -142,68 +166,169 @@ main{
     width: 100%;
     margin-bottom: 10px;
     border-radius: 15px;
+    height: 60px;
 }
-.orange-card button img{
+
+.orange-card button img {
     padding-right: 10px;
 }
 
-                /* apple button */
-.orange-card #apple-btn{
+/* apple button */
+.orange-card #apple-btn {
     background-color: #000000;
     color: #ffff;
     border-color: #000000;
+    margin-bottom: 20px;
 }
-                    /* active(hover) state */
-.orange-card #apple-btn:hover{
+
+/* active(hover) state */
+.orange-card #apple-btn:hover {
     background-color: #66E2DC;
     border-color: #66E2DC;
-    cursor: pointer; 
+    cursor: pointer;
 }
-                /* android button */
-.orange-card #android-btn{
-    background-color:#ffff;
-    color:  #000000;
+
+/* android button */
+.orange-card #android-btn {
+    background-color: #ffff;
+    color: #000000;
     border-color: #ffff;
 }
-                    /* active(hover) state */
-.orange-card #android-btn:hover{
+
+/* active(hover) state */
+.orange-card #android-btn:hover {
     background-color: #FFB964;
     border-color: #FFB964;
-    cursor: pointer; 
+    cursor: pointer;
 }
 
 
+/* ----- lower part of the page (footer) -----  */
 
-
-/* lower part of the page (footer)  */
-
-footer{
+footer {
     margin-top: 202px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 
 }
-    /* equalizer image in footer */
-footer img{
-    padding-top: 10px;
+
+/* equalizer image in footer */
+footer img {
     height: fit-content;
 }
-    /* copy right text in footer */
-footer p{
+
+/* copy right text in footer */
+footer p {
     width: 366px;
     min-width: 327px;
 }
-    /* social media logos #media-div */
-footer #media-div{
+
+/* social media logos #media-div */
+footer #media-div {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     width: 100px;
 }
-        /* footer image active state */
-footer #media-div svg:hover{
-    cursor: pointer; 
-    fill:#FA7453;
+
+/* footer image active state */
+footer #media-div svg:hover {
+    cursor: pointer;
+    fill: #FA7453;
+}
+
+
+
+/* ----------tablet mode----------------- */
+@media (max-width: 768px) {
+
+    /* --------------desktop mode--------------- */
+    /* general features */
+    body {
+        background-image: url(assets/bg-main-tablet.png);
+        max-width: 768px;
+        max-height: 1781px;
+        justify-content: center;
+    }
+
+    main {
+        position: relative;
+        margin: 62px 39px;
+    }
+
+    main #top-logo {
+        margin-bottom: 95px;
+    }
+
+    /* figma svg div */
+    #figma-div {
+        position: absolute;
+        width: 266.67px;
+        height: 400px;
+        top: -90%;
+        right: -2%;
+    }
+
+    #figma-div img {
+        width: 100%;
+    }
+
+    /* top section */
+    /* top section div */
+    .top {
+        margin-top: 0px;
+        padding-right: 170px;
+    }
+
+    .top h1 {
+        margin: 0px;
+    }
+
+
+    /* ----- mid-section style ----- */
+    /* phone image */
+    #phone {
+        position: absolute;
+        width: 270px;
+        height: 556px;
+        margin-left: 64px;
+    }
+
+    /* fimga image 2 */
+    #figma2 {
+        width: 280px;
+    }
+
+    /* orange-card content */
+    .orange-card {
+        width: 399px;
+        height: 546px;
+        
+
+
+    }
+
+    /* card div */
+    .orange-card #card {
+        width: 75.78%;
+        margin: 54px;
+
+    }
+
+
+    /* ----- lower part of the page (footer) -----  */
+
+    footer img {
+        position: absolute;
+        padding-top: 10px;
+        height: fit-content;
+    }
+
+    /* copy right text in footer */
+    footer p {
+        width: 366px;
+        min-width: 327px;
+    }
 }

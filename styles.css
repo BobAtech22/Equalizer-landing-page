@@ -114,7 +114,6 @@ main {
     border-radius: 10px;
     top: 15%;
     left: 50%
-
 }
 
 /* card div */
@@ -124,9 +123,9 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-   align-items: flex-start;
-   margin: 0px;
-   
+    align-items: flex-start;
+    margin: 0px;
+
     color: #ffffff;
 }
 
@@ -310,18 +309,20 @@ footer #media-div svg:hover {
         top: 25%;
 
     }
+
     /* card div */
     .orange-card #card {
         width: 75.78%;
         margin: 54px;
     }
-    .orange-card #card h2{
+
+    .orange-card #card h2 {
         font-size: 32px;
         margin-top: 0px;
     }
 
     /* price text */
-    .orange-card #card #price h2{
+    .orange-card #card #price h2 {
         font-size: 70px;
         margin: 0px;
         margin-right: 15px;
@@ -333,10 +334,11 @@ footer #media-div svg:hover {
     }
 
     /* ----- lower part of the page (footer) -----  */
-    footer{
+    footer {
         position: relative;
         padding-top: 32px;
     }
+
     footer img {
         position: absolute;
         padding-top: 10px;
@@ -356,7 +358,7 @@ footer #media-div svg:hover {
 /* ----------mobile phone mode----------------- */
 @media (max-width: 375px) {
 
-     /* --------------desktop mode--------------- */
+    /* --------------desktop mode--------------- */
     /* general features */
     body {
         background-image: url(assets/bg-main-mobile.png);
@@ -384,7 +386,7 @@ footer #media-div svg:hover {
     /* top section */
     /* top section div */
     .top {
-        width: 100% ;
+        width: 100%;
         padding: 0px;
         margin: auto;
         padding-left: 5%;
@@ -422,13 +424,15 @@ footer #media-div svg:hover {
         top: 62%;
 
     }
+
     /* ----- lower part of the page (footer) -----  */
-    footer{
+    footer {
         width: 100%;
         margin-top: 500px;
         position: relative;
         padding-top: 32px;
     }
+
     footer img {
         position: absolute;
         padding-top: 10px;
@@ -443,9 +447,8 @@ footer #media-div svg:hover {
     }
 
     /* social media logos #media-div */
-footer #media-div {
-    position: absolute;
-    top: 130%;
+    footer #media-div {
+        position: absolute;
+        top: 130%;
+    }
 }
-}
-

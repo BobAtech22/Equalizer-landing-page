@@ -403,7 +403,7 @@ footer #media-div svg:hover {
     #phone {
         position: absolute;
         width: 208px;
-        height: fit-content;
+        height: auto;
         top: -15%;
         margin-left: 25%;
     }
@@ -419,7 +419,7 @@ footer #media-div svg:hover {
     /* orange-card content */
     .orange-card {
         width: 100%;
-        height: fit-content;
+       height: auto;
         left: 0%;
         top: 62%;
 

@@ -34,7 +34,7 @@ main {
     margin: 61.99px 165px 91px 165px ;
     margin-bottom: 0px;
     width: 1110px;
-    height: 91.64%;
+    /* height: 1741px; */
     /* border: 1px solid red; */
 
 }
@@ -321,6 +321,11 @@ footer #media-div {
     justify-content: space-between;
     align-items: center;
     width: 100px;
+}
+
+footer #media-div svg{
+    
+    height: 50px;
 
 }
 

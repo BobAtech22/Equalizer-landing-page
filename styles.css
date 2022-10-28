@@ -341,11 +341,11 @@ footer #media-div svg:hover {
         width: 768px;
         height: 1781px;
         justify-content: center;
-        border: 1px solid green;
+        /* border: 1px solid green; */
     }
     #tablet_bg{display: block;
     position:absolute;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 983px;
     height: 808px;
     top: -6.3%;
@@ -539,13 +539,22 @@ footer #media-div svg:hover {
     body {
        
         width: 375px;
-        max-height: 1781px;
+        height: 1945px;
         justify-content: center;
         margin: auto;
+        /* border: 1px solid #FFB964; */
     }
+
     #phone_bg{display:block;
-    position: absolute;
+        position: absolute;
+        top: 0%;
+        width: 281.4px;
+        height: 480px;
+        /* border: 1px solid red; */
+        top: -4.7%;
+        right: -18.5%;
     }
+
     #desktop_bg{display:none;}
     #tablet_bg{display: none;}
     main {

@@ -335,7 +335,7 @@ footer #media-div svg:hover {
 /* ----------tablet mode----------------- */
 @media (max-width: 768px) {
 
-    /* --------------desktop mode--------------- */
+    
     /* general features */
     body {
         width: 768px;
@@ -499,6 +499,7 @@ footer #media-div svg:hover {
 
     /* ----- lower part of the page (footer) -----  */
     footer {
+        /* margin-top: 173; */
         position: relative;
         padding-top: 32px;
         width: 100%;
@@ -531,26 +532,35 @@ footer #media-div svg:hover {
 
 
 /* ----------mobile phone mode----------------- */
-@media (max-width: 600px) {
+@media (max-width: 357px) {
 
     
     /* general features */
     body {
-        background-image: url(assets/bg-main-mobile.png);
+       
         width: 375px;
         max-height: 1781px;
         justify-content: center;
         margin: auto;
     }
-
+    #phone_bg{display:block;
+    position: absolute;
+    }
+    #desktop_bg{display:none;}
+    #tablet_bg{display: none;}
     main {
         position: relative;
-        margin: 62px 0px;
+        margin-top: 39px;
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 100%;
     }
 
     main #top-logo {
-        margin-bottom: 95px;
-        padding-left: 5%;
+        width: 146.09px;
+        height: 32px;
+        margin-left: 24px;
+
     }
 
     /* figma svg div */
@@ -561,57 +571,82 @@ footer #media-div svg:hover {
     /* top section */
     /* top section div */
     .top {
-        width: 100%;
-        padding: 0px;
-        margin: auto;
-        padding-left: 5%;
+        margin-left: 24px;
+        margin-right: 24px;
+        margin-top: 64.01px;
+        
     }
 
     .top h1 {
-        margin: 0px;
+        width: 327px;
+        height: 144px;
+        font-weight: 700;
         font-size: 40px;
+        line-height: 48px;
+/* or 120% */
     }
-
+    .top p{
+        width: 327px;
+        height: 156px;
+        left: 24px;
+        top: 300px;
+        font-family: 'IBM Plex Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        margin-top: 20px;
+    }
 
     /* ----- mid-section style ----- */
     /* phone image */
+    .mid{
+        margin-top:166px;
+        margin-bottom:485.99px;
+    }
     #phone {
         position: absolute;
         width: 208px;
-        height: auto;
-        top: -15%;
-        margin-left: 25%;
+        height: 430px;
+        margin-left: 80.67px;
+        top: -16%;
     }
 
     /* fimga image 2 */
     #figma2 {
         width: 280px;
-        margin: 5%;
-        left: 10%;
-        top: -3%;
+        height: 420px;
+        top: 0%;
+        margin-left:48px ;
     }
 
     /* orange-card content */
     .orange-card {
-        width: 100%;
-       height: auto;
-        left: 0%;
-        top: 62%;
-
+        width: 375px;
+        height: 546px;
+        margin: 0px;
+        top: 65%;
+    }
+    .orange-card #card{
+        margin-left: 36px;
+        margin-right: 37px;
     }
 
     /* ----- lower part of the page (footer) -----  */
     footer {
-        width: 100%;
-        margin-top: 500px;
         position: relative;
-        padding-top: 32px;
+        display: flex;
+        width: 327px;
+        margin-left: 24px;
+        margin-right: 24px;
+        
+
     }
 
     footer img {
         position: absolute;
-        padding-top: 10px;
-        height: fit-content;
+        width: 146.09px;
+        height: 32px;
         bottom: 100%;
     }
 
@@ -619,6 +654,10 @@ footer #media-div svg:hover {
     footer p {
         width: 366px;
         min-width: 327px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+/* or 162% */
     }
 
     /* social media logos #media-div */

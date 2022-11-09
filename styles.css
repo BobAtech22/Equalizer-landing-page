@@ -2,7 +2,9 @@
 /* general features */
 body {
    
-  
+    display: flex;
+    justify-self: center;
+    align-items: center;
     font-family: 'IBM Plex Sans', sans-serif;
 }
 
@@ -11,12 +13,9 @@ main{
     width: 1440px;
     /* min-width: 400px; */
     height: 1832px;
-    
- 
     display: flex;
     flex-direction: column;
-    /* justify-content: center;
-    align-items: center; */
+  
    margin: auto;
 }
  #tablet_bg{display: none;}
@@ -568,7 +567,7 @@ footer #media-div svg:hover {
 
 /* ----------mobile phone mode----------------- */
 @media only screen and (max-width: 357px) {
-    
+
 
     main{
         width: 357px;
